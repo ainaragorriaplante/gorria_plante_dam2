@@ -1,3 +1,12 @@
+/*
+=========================================
+AUTOR: AINARA GORRÍA PLANTÉ
+GRUPO: DAM2
+EXAMEN JDBC AWS RDS
+FECHA: 28/05/2026
+=========================================
+*/
+
 package examen.gorria.ainara.motores;
 
 public class MotorFactory {

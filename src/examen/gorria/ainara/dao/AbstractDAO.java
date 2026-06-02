@@ -1,4 +1,12 @@
-package examen.gorria.ainara.dao;
+
+/*
+=========================================
+AUTOR: AINARA GORRÍA PLANTÉ
+GRUPO: DAM2
+EXAMEN JDBC AWS RDS
+FECHA: 28/05/2026
+=========================================
+*/package examen.gorria.ainara.dao;
 
 import java.util.ArrayList;
 
@@ -29,7 +37,7 @@ public class AbstractDAO<T> implements DAO <T>{
     }
 
     @Override
-    public Object find(int id) {
+    public T find(int id) {
         
         return null;
     }
