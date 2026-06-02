@@ -10,7 +10,12 @@ public class AbstractDAO<T> implements DAO <T>{
     public AbstractDAO(MotorSQL motorSQL){
         this.motorSQL = motorSQL;
     }
+
     
+    public AbstractDAO() {
+    }
+
+
     @Override
     public void add(Object object) {
         
